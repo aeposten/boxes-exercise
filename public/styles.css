@@ -4,12 +4,13 @@ body {
 .App {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box {
     width: 200px;
     height: 200px;
-    margin: 2em;
+    margin: 1em;
     border: 0.5em solid gold;
     border-radius: 0.5em;
 }

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       {squares.map((box) => 
-        <Box />
+        <Box key={box.id} on={box.on}/>
       )}
     </div>
   );
